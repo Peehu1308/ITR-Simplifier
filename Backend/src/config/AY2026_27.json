@@ -1,0 +1,58 @@
+{
+  "assessmentYear":"2026-27",
+
+  "oldRegime":{
+
+      "standardDeduction":50000,
+
+      "slabs":[
+
+          {
+              "from":0,
+              "to":250000,
+              "rate":0
+          },
+
+          {
+              "from":250001,
+              "to":500000,
+              "rate":0.05
+          },
+
+          {
+              "from":500001,
+              "to":1000000,
+              "rate":0.20
+          },
+
+          {
+              "from":1000001,
+              "to":999999999,
+              "rate":0.30
+          }
+
+      ]
+
+  },
+
+  "newRegime":{
+
+      "standardDeduction":75000,
+
+      "slabs":[
+
+      ]
+
+  },
+
+  "cess":0.04,
+
+  "rebate":{
+
+      "threshold":1200000,
+
+      "maximum":60000
+
+  }
+
+}
