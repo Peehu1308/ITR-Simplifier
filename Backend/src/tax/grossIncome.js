@@ -13,11 +13,11 @@ function sumSalaryIncome(salary={}){
 
 function calculateNetAnnualValue(houseProperty={}){
     const {
-        rentRecieved=0,
+        rentReceived=0,
         municipalTaxesPaid=0,
     }=houseProperty;
 
-    return Math.max(0,rentRecieved-municipalTaxesPaid);
+    return Math.max(0, rentReceived - municipalTaxesPaid);
 }
 
 function calculateIncomeFromHouseProperty(houseProperty={}){
