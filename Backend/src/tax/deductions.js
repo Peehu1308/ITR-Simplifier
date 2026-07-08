@@ -36,4 +36,3 @@ export function calculateEligibleDeductions(input, regime, ayConfig) {
     }
 
     return total;
-}
